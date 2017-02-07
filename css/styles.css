@@ -102,6 +102,7 @@ li.text-center {
     letter-spacing: 2px;
 }
 
+<<<<<<< HEAD
 .btn {
   border-radius: 0px;
   background-color: #fff;
@@ -126,6 +127,8 @@ li.text-center {
   margin-bottom: 20px;
 }
 
+=======
+>>>>>>> 9ff6da57818d28be4287ff217cd3e5a9b96d2f65
 .fa.fa-angle-double-down {
 	font-size: 45px;
 	margin-top: 30px;
@@ -213,11 +216,14 @@ article {
   text-align: center;
 }
 
+<<<<<<< HEAD
 .sc-link {
 width: 300px;
 margin-bottom: 20px;
 }
 
+=======
+>>>>>>> 9ff6da57818d28be4287ff217cd3e5a9b96d2f65
 footer {
 	text-align: center;
 
@@ -281,11 +287,16 @@ footer {
 .jumbotron {
 	position: relative;
 }
+<<<<<<< HEAD
 h1.album-title {
   font-size: 63px !important;
 }
 .main-header {
 	margin-top: 1%;
+=======
+.main-header {
+	margin-top: 10%;
+>>>>>>> 9ff6da57818d28be4287ff217cd3e5a9b96d2f65
 }
 .intro-text {
 	margin-top: 5%;
@@ -371,7 +382,10 @@ h1.album-title {
 	background-color: #d13c27 !important;
 
 }
+<<<<<<< HEAD
 }
+=======
+>>>>>>> 9ff6da57818d28be4287ff217cd3e5a9b96d2f65
 
 @media (min-height: 400px) {
 
@@ -381,6 +395,7 @@ h1.album-title {
 
 }
 
+<<<<<<< HEAD
 /* Music Link Responsiveness */
 
 @media (min-width: 768px) {
@@ -429,4 +444,6 @@ section {
 
 }
 
+=======
+>>>>>>> 9ff6da57818d28be4287ff217cd3e5a9b96d2f65
 
