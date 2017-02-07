@@ -102,6 +102,30 @@ li.text-center {
     letter-spacing: 2px;
 }
 
+.btn {
+  border-radius: 0px;
+  background-color: #fff;
+  border: 1px solid #2980b9;
+}
+
+.btn:hover {
+  color: #fff !important;
+}
+
+.btn-lg:hover {
+  color: #fff !important;
+  background-color: #2980b9;
+
+}
+
+.preorder-btn:hover {
+  color: #fff !important;
+}
+.btn-lg {
+  border-radius: 0px;
+  margin-bottom: 20px;
+}
+
 .fa.fa-angle-double-down {
 	font-size: 45px;
 	margin-top: 30px;
@@ -189,6 +213,11 @@ article {
   text-align: center;
 }
 
+.sc-link {
+width: 300px;
+margin-bottom: 20px;
+}
+
 footer {
 	text-align: center;
 
@@ -252,8 +281,11 @@ footer {
 .jumbotron {
 	position: relative;
 }
+h1.album-title {
+  font-size: 63px !important;
+}
 .main-header {
-	margin-top: 10%;
+	margin-top: 1%;
 }
 .intro-text {
 	margin-top: 5%;
@@ -339,12 +371,61 @@ footer {
 	background-color: #d13c27 !important;
 
 }
+}
 
 @media (min-height: 400px) {
 
 .lazyframe {
     max-width: 400px;
 }
+
+}
+
+/* Music Link Responsiveness */
+
+@media (min-width: 768px) {
+
+h1 {
+  font-size: 49px !important;
+}
+.sc-link {
+height: 450px;  
+width: 100%;
+margin-bottom: 0px;
+}
+
+}
+
+/* Large Screens */
+
+@media (min-width: 1440px) {
+
+/* Full width landing page disabled for large screens */
+
+section {
+  height: initial;
+}
+/* Hero page enlarged for large screens */
+  .album-img {
+  max-width: 500px;
+}
+
+.an-logo {
+  font-size: 35px;
+}
+
+.album-title {
+  font-size: 75px;
+
+}
+
+.recent-news {
+  font-size: 35px;
+
+}
+
+.fa.fa-angle-double-down {
+  margin-top: 20%;
 
 }
 
